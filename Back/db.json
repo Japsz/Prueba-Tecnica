@@ -1,0 +1,88 @@
+{
+  "profile": [
+    {
+      "id": 1,
+      "username": "Jhon",
+      "password": "llon"
+    },
+    {
+      "id": 2,
+      "username": "Gion",
+      "password": "giovanna"
+    },
+    {
+      "id": 3,
+      "username": "BA",
+      "password": "dventures"
+    }
+  ],
+  "comments_episode": [
+    {
+      "id": 1,
+      "profileId": 1,
+      "episodeId": 1,
+      "text": "lolxd"
+    },
+    {
+      "id": 2,
+      "profileId": 3,
+      "episodeId": 6,
+      "text": "lolxd"
+    },
+    {
+      "text": "este es weno",
+      "episodeId": "1",
+      "id": 3
+    },
+    {
+      "text": "es re weno",
+      "episodeId": "1",
+      "id": 4
+    },
+    {
+      "text": "asdads",
+      "episodeId": "1",
+      "id": 5
+    },
+    {
+      "text": "asd",
+      "episodeId": "1",
+      "id": 6
+    },
+    {
+      "text": "Jjaja",
+      "episodeId": "1",
+      "profileId": 1,
+      "id": 7
+    }
+  ],
+  "comments_character": [
+    {
+      "id": 1,
+      "profileId": 1,
+      "characterId": 1,
+      "text": "lolxd"
+    },
+    {
+      "id": 2,
+      "profileId": 3,
+      "characterId": 6,
+      "text": "yea"
+    },
+    {
+      "text": "asdasd",
+      "characterId": "6",
+      "id": 3
+    },
+    {
+      "text": "nepe",
+      "characterId": "6",
+      "id": 4
+    },
+    {
+      "text": "Wena\n",
+      "characterId": "6",
+      "id": 5
+    }
+  ]
+}

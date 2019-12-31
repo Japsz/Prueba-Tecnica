@@ -1,0 +1,17 @@
+version: "0.2"
+services:
+  frontend:
+    build: ./Front
+    links:
+      - backend:backend
+    env_file:
+      - ./Front/.env
+    enviroment:
+      - REACT_APP_BACKEND=http://backend:4000
+      - REACT_APP_JSONSERVER=http://backend:5000
+    ports:
+     - "80:80"
+    restart: on-failure
+  backend:
+    build: ./Back
+    restart: on-failure
