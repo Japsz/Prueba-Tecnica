@@ -16,6 +16,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('secretToken', "eyJhbGciOiJIUzI1NiIs") //usado para JWT
 app.use(cors())
 app.use('/', usersRouter);
-app.use(/\/comments_(character|episode)/, proxy({target: 'http://localhost:5000', changeOrigin: true, headers:{'Content-Type': 'application/json'}}))
 
 module.exports = app;
